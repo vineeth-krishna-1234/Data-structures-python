@@ -1,6 +1,5 @@
-from contextlib import nullcontext
-from hashlib import new
-import this
+
+#linked list data structure with its functions like adding values,deleting and displaying
 
 
 class Node:
@@ -69,6 +68,8 @@ class Linked_list:
             else:
                 count+=1
                 nodepointer=nodepointer.next
+
+
     def append_at_end(self):
         pointer=self.head
         while pointer.next:
@@ -77,8 +78,12 @@ class Linked_list:
             input_value=int(input("enter end append value"))
             newnode=Node(input_value)
             pointer.next=newnode
+
+
     def delete_at_begining(self):
         self.head=self.head.next
+
+
     def delete_at_end(self):
         prev_pointer=None
         current_pointer=self.head
@@ -105,13 +110,15 @@ class Linked_list:
                 count+=1
 
 
+while True:
+    input("MENU\n1. Enter the values of the linked list\n2.Append a node at begining\n3.append at a particular index\n4.append at the end\n 5.delete_at_index")
 
 
 linkedlist1=Linked_list()
 linkedlist1.append_nodes()
-#linkedlist1.append_at_begining()
-#linkedlist1.append_at_index()
-#linkedlist1.append_at_end()
+linkedlist1.append_at_begining()
+linkedlist1.append_at_index()
+linkedlist1.append_at_end()
 linkedlist1.delete_at_index()
 linkedlist1.display_list()
 
