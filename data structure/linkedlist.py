@@ -22,7 +22,7 @@ class Linked_list:
         while displaypointer:
             print(displaypointer.data,end=" -> ")
             displaypointer=displaypointer.next
-        print("/n")
+        print("\n")
         
 
 
