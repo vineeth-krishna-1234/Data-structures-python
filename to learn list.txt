@@ -1,0 +1,59 @@
+data structures:
+    Arrays
+        operations
+            Insert 
+            Get 
+            Delete 
+            Size
+    stacks 
+        using Arrays
+        using linked lists
+        operations
+            Push 
+            Pop 
+            isEmpty 
+            Top
+    queues
+        using Arrays
+        using linked linked
+        operations
+            Enqueue
+            Dequeue
+            isEmpty
+            Top
+    linked lists
+        singly linked 
+        doubly linked
+        operations
+            InsertAtEnd
+            InsertAtHead 
+            Delete 
+            DeleteAtHead 
+            Search
+            isEmpty
+    graphs:
+        undirected 
+        directed
+    trees:
+        N-ary Tree
+        Balanced Tree
+        Binary Tree
+        Binary Search Tree
+        AVL Tree
+        Red Black Tree
+        2–3 Tree
+    trie:
+    hash table:
+sorting algorithms:
+    Binary Search
+    Quick Sort
+    Merge Sort
+    Order Statistics
+    KMP algorithm
+    Rabin karp
+    Z’s algorithm
+    Aho Corasick String Matching
+    Counting Sort
+
+
+    
