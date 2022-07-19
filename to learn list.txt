@@ -45,14 +45,8 @@ data structures:
     trie:
     hash table:
 sorting algorithms:
-    Binary Search
     Quick Sort
     Merge Sort
-    Order Statistics
-    KMP algorithm
-    Rabin karp
-    Z’s algorithm
-    Aho Corasick String Matching
     Counting Sort
 
 
